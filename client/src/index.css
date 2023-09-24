@@ -1,0 +1,48 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+}
+
+/* img {
+  width: 200px; 
+  height: 300px; 
+} */
+
+.btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn button,
+form button {
+  padding: 10px 20px;
+  background-color: skyblue;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  gap: 23px;
+}
+
+input {
+  padding: 10px;
+}
